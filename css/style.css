@@ -1,0 +1,691 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&family=Open+Sans&display=swap');
+*{
+    font-family: 'Audiowide', cursive;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    border:none;
+    outline: none;
+}
+.home{
+    background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7), rgba(0,0,0,0.7)), 
+url(../image/hamid-tajik-c1EH_XH-tNI-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    animation: slider 10s infinite linear;
+}
+@keyframes slider{
+    100%{
+        background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7), rgba(0,0,0,0.7)), 
+        url(../image/banner1.jpg);
+    }
+    80%{
+        background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7), rgba(0,0,0,0.7)), 
+        url(../image/banner2.jpg);
+    }
+    60%{
+        background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7), rgba(0,0,0,0.7)), 
+        url(../image/banner3.jpg);
+    }
+    40%{
+        background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7), rgba(0,0,0,0.7)), 
+        url(../image/banner4.jpg);
+    }
+    20%{
+        background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7), rgba(0,0,0,0.7)), 
+        url(../image/banner5.jpg);
+    }
+}
+
+body{
+    font-size: 60%;
+    background: #eee;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+    
+
+}
+/* nav */
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #fff;
+    padding: 2rem 9%;
+    box-shadow: 0 0.5rem 1rem rgba(0,0,0,0.1);
+}
+.color-contener{
+    background: rgba(252, 212, 152, 0.685);
+}
+/* -----------logo------------------ */
+.logo{
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #2f1a1a;
+}
+.logo-footer{
+    width: 18%;
+    text-align: center;
+    font-size: 4rem;
+    color: rgb(209, 209, 209);
+}
+.logo-footer span{
+    color: white;
+}
+/* ------------------------------------ */
+.menu-footer{
+    width: 58%;
+    /* display: flex;
+    justify-content: center; */
+    text-align: center;
+}
+.menu-footer div{
+    margin-top: 1.3rem;
+}
+.menu-footer .h1{
+    margin-bottom: 1rem;
+    color: rgba(9, 123, 230, 0.849);
+    font-size: 1.5rem;
+}
+
+
+
+
+
+
+
+
+
+.logo span{
+    color: tomato;
+}
+.logo i{
+    color: rgb(253, 55, 6);
+    font-size: 5rem;
+}
+.logo-footer i{
+    font-size: 7rem;
+}
+/* ---------------------- */
+
+
+/* ------navbar------- */
+.navbar a{
+    font-size: 1.4rem;
+    margin: 0 0.7rem;
+    color: #2f1a1a;
+}
+.menu{
+    /* width:%; */
+    margin: auto;
+}
+.navbar-footer a{
+    width: 100%;
+    font-size: -1rem;
+    margin-top: -2rem;
+    text-align: center;
+    color: rgb(180, 179, 179);
+}
+a:hover{
+    color: rgb(253, 55, 6);
+ 
+}
+/* icon-------------- */
+.icons{
+    display: flex;
+}
+.icons-form{
+    text-align: center;
+    font-size: 9rem;
+}
+.icons .fa{
+    font-size: 28px;
+    margin: 8px;
+    color: #1d61a1;
+}
+.icons-footer{
+    display: flex;
+    justify-content: center;
+    margin-top: 4rem;
+}
+.icons-footer .fa{
+    font-size: 4rem;
+    border: 2px solid;
+    width: 90px;
+    height: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+.form-footer{
+    display: flex;
+}
+.form-footer .btn-footer{
+    background:  rgba(253, 55, 6, 0.89);
+    padding: 10px 20px;
+    font-size: 1rem;
+}
+.form-footer .btn-footer:hover{
+    background: rgba(238, 124, 11, 0.911);
+}
+
+.h1-footer{
+    margin: 1rem 0;
+    color: rgba(230, 142, 9, 0.781);
+    font-size: 1.5rem;
+}
+.rever{
+    padding: 1rem;
+    width: 100%;
+    text-align: center;
+    background: rgba(12, 55, 134, 0.609);
+    color: rgb(255, 255, 255);
+}
+.icons .fa:hover{
+    color: rgb(253, 55, 6);
+}
+
+
+
+/* home */
+.home{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7), rgba(0,0,0,0.7)), 
+url(../image/hamid-tajik-c1EH_XH-tNI-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 15rem 0;
+}
+.home .content p{
+    font-family: 'Audiowide', cursive;
+}
+.home .content{
+    text-align: center;
+
+}
+.home .content  h3{
+    color: rgb(253, 55, 6);
+    font-size: 3.4rem;
+    
+
+}
+.home  .content  h3 span{
+    color: orange;
+}
+.home .content  p{
+    width: 50%;
+    margin: auto;
+    font-size: 1.5rem;
+    line-height: 1.8;
+    color: #c0bdbd;
+    font-weight: 1px;
+    /* font-family: 'Open Sans', sans-serif; */
+}
+
+
+/* btn */
+.home .content button{
+    font-size: 1.5rem;
+    padding: 1rem 2rem;
+    cursor: pointer;
+    border-radius: 8px;
+    background: orange;
+    color: #fff;
+}
+.button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btn-benner{
+    margin: 10px;
+    background: none;
+    border: 2px solid rgb(253, 55, 6);
+    color: white;
+}
+.btn-color{
+    background: rgb(253, 55, 6);
+}
+.btn{
+
+    margin-bottom: 30px;
+    margin-top: 2rem;
+    font-size: 20px;
+    padding: 15px 8rem;
+    color: rgba(255, 255, 255, 0.932);
+    
+}
+.btn:hover{
+    background: orange;
+}
+.btn-small{
+    width: 40%;
+    margin-left: 1rem;
+    padding: 10px 20px ;
+    text-align: center;    /* margin: auto; */
+    margin-top: 6px;
+}
+.small{
+    width: 40%;
+    padding: 15px ;
+    text-align: center;
+
+    /* margin: auto; */
+}
+.btn-form{
+    width: 100%;
+    /* margin-left: 2.5%; */
+    box-sizing: border-box;
+  }
+
+
+
+
+/* contener */
+.headers{
+    display: flex;
+}
+.headers h1{
+    clip-path: polygon(0 0, 97% 0, 100% 100%, 0% 100%);
+    background:  rgb(253, 55, 6);
+    padding: 15px 6rem;
+    margin-top: 15px;
+    font-size: 20px;
+    color:white;
+
+}
+.h1{
+    font-size: 1.5rem;
+    /* margin-top: ; */
+}
+.h1-contace{
+    margin-bottom: 1rem;
+}
+/* .h1-footer{
+    font-size: 2rem;
+    color: rgb(180, 179, 179);
+} */
+.headers div{
+    width: 80%;
+    border-bottom: 2px solid  rgb(253, 55, 6);
+}
+
+.main{
+    width: 95%;
+    margin: auto;
+    margin-top: 5vh;
+}
+.main-1{
+    display: flex;
+    /* background: rgb(170, 168, 168); */
+    
+
+
+}
+.main-2{
+    text-align: center;
+    margin-top: 0;
+    padding: 2rem;
+    background: rgba(255, 54, 4, 0.719);
+}
+
+.main .text{
+    width: 72%;
+    padding: 3.5rem;
+
+}
+.main .text h3{
+    font-size: 3rem;
+}
+.main .text p{
+    margin-top: 1rem;
+    font-size: 1.5rem;
+    line-height: 2rem;
+    font-family: sans-serif;
+
+}
+.main .img{
+    width: 28%;
+    
+}
+.main .img img{
+    width: 100%;
+    height: 70vh;
+}
+
+/*-------------icon------------------ */
+
+/* card */
+.main-card{
+    display: flex;
+    /* margin-top: 20px; */
+}
+
+.card-no-magin{
+    margin: 0;
+}
+.card-has-magain{
+    padding: 30px;
+    margin: 10px;
+}
+.card-has-small-magain{
+    background: rgba(113, 114, 114, 0.966);
+    margin: 5px;
+}
+.main-card .card{
+    width: 40%;
+}
+.start-center{
+    text-align: center;
+
+}
+.start-left{
+    text-align: none;
+}
+.no-bg-card{
+    background: none;
+    padding: 1rem;
+    margin: 8px;
+    background: rgb(255, 255, 255);
+    box-shadow: 0 0.3rem 1rem teal;
+
+}
+.card-has-bg{
+    background: rgba(207, 204, 204, 0.692);
+}
+.main-card .card-has-bg:hover{
+    box-shadow: 0 0.3rem 1rem teal;
+}
+.main-card .card h4{
+    font-size: 1.4rem;
+}
+.main-card .card p{
+    font-size: 1.2rem;
+    font-family: sans-serif;
+    line-height: 1.5rem;
+    margin-bottom: 0.5rem;
+}
+.card a{
+    font-size: 1rem;
+}
+
+
+/* footer */
+footer{
+    background: rgb(66, 65, 65);
+    display: flex;
+    padding: 2rem;
+    margin-top: 2rem;
+}
+
+/* .menu a{
+    display: block;
+} */
+
+
+
+/*---------- form */
+.select-language select{
+    border: none;
+    padding: 20px 30px;
+    background: white;
+    margin-top: -8px;
+}
+.select-language select option{
+    font-size: 20px;
+}
+.form{
+    width: 40%;
+    margin: auto;
+}
+.form form{
+    width: 90%;
+    margin: auto;
+}
+.form-sign-in-page{
+    background: rgba(3, 151, 250, 0.664);
+    margin-top: -2rem;
+    padding: 4rem 0rem;
+}
+.form form div{
+    margin: auto;
+    box-sizing: border-box;
+    margin-top: 0.5rem;
+}
+.input{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 1.5rem;
+    margin-top: 1rem;
+    resize: none;
+
+}
+::placeholder{
+    font-size: 1.2rem;
+    color: rgba(126, 124, 124, 0.774);
+}
+
+.contener-sign-in{
+
+    padding: 6rem;
+    display: flex;
+}
+.h1-form{
+    text-align: center;
+    font-size: 2rem;
+}
+.a-form{
+    display: flex;
+    justify-content: center;
+    font-size: 1.1rem;
+    margin-top: 1rem;
+    color: rgba(192, 189, 189, 0.774);
+}
+p{
+    font-family: sans-serif;
+    font-size: 1.2rem;
+}
+
+
+.information{
+    width: 75%;
+}
+.img-text{
+    width: 100%;
+    display: flex;
+}
+.information img{
+    margin-right: 1.4rem;
+}
+
+
+.h1-card{
+    text-align: center;
+    margin-top: 3rem;
+    font-size: 3rem;
+    margin-bottom: 2rem;
+}
+.h1-card span{
+    color:  rgb(253, 55, 6);
+}
+.photo{
+    margin: auto;
+    margin-top: -9rem;
+}
+
+
+.main-card .start-left img{
+    width: 100%;
+    height: 45vh;
+}
+.main-card .start-left p,.icon-flex,h3{
+    padding-left: 1rem;
+}
+.start-left del{
+    text-decoration: line-through;
+    font-family: sans-serif;
+    background: rgba(240, 167, 10, 0.87);
+    margin-left: 6px;
+}
+.start-left .fa{
+    font-size: 2rem;
+    color: rgba(255, 153, 0, 0.836);
+}
+.start-left span{
+    font-family: sans-serif;
+    font-size: 2.3rem;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    
+}
+.start-left h3{
+    width: 50%;
+    padding: 10px 15px;
+    margin: -2px 0 10px 0;
+    background: rgba(231, 127, 9, 0.87);
+    color: rgba(24, 23, 23, 0.877);
+    clip-path: polygon(0 0, 100% 0, 96% 100%, 0 100%);
+    font-size: 1.6rem;
+  }
+
+
+
+
+
+
+
+
+
+
+
+/* model======================== */
+  .h1-bg{
+      width: 461px;
+      padding: 1rem;
+      margin: -1rem -1rem 1rem -1rem;
+      background: rgba(238, 137, 42, 0.829);
+  }
+
+/* servies */
+.thepra .h1{
+    margin-bottom: 1rem;
+    color: red;
+    font-size: 2rem;
+}
+.thepra p{
+    font-size: 1.5rem;
+}
+.service-contain{
+    padding: 2rem;
+    display: flex;
+    width: 100%;
+}
+.service-contain img{
+    margin: 0 1rem;
+}
+.service-contain .btn-color,.service-contain .btn-benner{
+    width: 13rem;
+    text-align: center;
+    margin: 1rem 5rem;
+    font-size: 1rem;
+    padding: 1rem 3rem;
+    color: #000;
+}
+.service-contain .btn-benner:hover{
+    background: rgb(240, 186, 12);
+}
+.service-contain .btn-color:hover{
+    background: rgb(236, 177, 13);
+}
+.service-color{
+    background: rgba(6, 146, 240, 0.473);
+}
+.service{
+    padding: 2rem;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+.users img{
+    width: 200px;
+    height: 200px;
+    background: #000;
+    border-radius: 50%;
+}
+.service-color .btn-color{
+    margin-left: -4px;
+}
+.service .h1{
+    color: rgb(4, 116, 245);
+    margin-bottom: 2rem;
+}
+.service p{
+    width: 40%;
+    margin: auto;
+}
+.service h3{
+    font-size: 1.6rem;
+    margin: 1rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+#focus{
+    border-bottom: 3px solid rgb(235, 61, 8);
+    color: orangered;
+
+}
+
+
+.cost{
+    display: flex;
+    justify-content: center;
+}
+.cost h1{
+    margin: 0 1rem;
+    font-size: 2rem;
+    
+    font-family: sans-serif;
+
+}
+.cost p{
+    font-size: 2rem;
+
+ 
+}
+.bt{
+    margin-top: 1rem;
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+.btn-com{
+    padding: 1rem 3rem;
+    font-size: 1rem;
+    margin: 0 15px;
+}
+.btn-com:hover{
+    background: rgb(224, 146, 0);
+}
+.card-com .icon-flex .fa{
+    font-size: 1.6rem;
+    color: rgba(243, 134, 9, 0.959);
+
+}
